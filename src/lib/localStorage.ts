@@ -1,4 +1,6 @@
-const gameStateKey = 'gameState'
+import { getWordleNumber } from "../GLOBALS"
+
+const gameStateKey = 'gameState' + getWordleNumber();
 const archiveGameStateKey = 'archiveGameState'
 const highContrastKey = 'highContrast'
 
