@@ -18,6 +18,7 @@ export const VALID_GUESSES = [
   'abaya',
   'abbas',
   'abbed',
+  'claus',
   'abbes',
   'abbey',
   'abbot',

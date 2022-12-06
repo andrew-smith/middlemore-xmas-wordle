@@ -1,3 +1,4 @@
+import { getWordleNumber } from '../GLOBALS'
 import {
   addDays,
   differenceInDays,
@@ -108,14 +109,7 @@ export const isValidGameDate = (date: Date) => {
 }
 
 export const getIndex = (gameDate: Date) => {
-  let start = firstGameDate
-  let index = -1
-  do {
-    index++
-    start = addDays(start, periodInDays)
-  } while (start <= gameDate)
-
-  return index
+  return getWordleNumber();
 }
 
 export const getWordOfDay = (index: number) => {
